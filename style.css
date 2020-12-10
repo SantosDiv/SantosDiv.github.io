@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+
+/*HEADER*/
+#header {
+   height: 100vh;
+   padding-top: 20px;
+
+   overflow: hidden;
+   background-image: url(eu.jpeg);
+   background-repeat: no-repeat;
+   background-position: 90% 160%;
+   background-size: 40%;
+
+   position: relative;
+}
+#header .menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 20px;
+}
+#header .menu-links a {
+    color: #000;
+    margin-left: 10px;
+    transition: 0.2s;
+
+    font-weight: 300;
+}
+
+#header .menu-links a:hover,
+#header .menu-links a:focus {
+    color: #009688;
+    font-weight: 500;
+}
+
+#header .redesSociais {
+    font-size: 1.5em;
+    transition: 0.5s;
+}
+#header .redesSociais i:hover {
+    color: #009688;
+    cursor: pointer;
+}
+
+
+/*TOP SECTION-HEADER*/
+#header .topSection {
+    padding: 7%;
+    position: relative;
+
+}
+#header .arrow {
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    opacity: 0.5;
+    transition: 0.5s;
+
+    animation-duration: 0.8s;
+    animation-name: move-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#header .arrow:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*animation arrow*/
+@keyframes move-in{
+    from {
+        bottom: 10px;
+    }
+    to {
+        bottom: 0;
+    }
+}
+
+#header .topSection .presentation {
+    margin-top: 100px;
+    max-width: 700px;
+}
+.presentation .title-presentation-box .title {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Special Elite', sans-serif;
+}
+.presentation .title-presentation-box .sub-title {
+    font-size: 35px;
+    font-weight: 500;
+
+    color: #009688;
+}
+.presentation .title-presentation-box .sub-title2 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #949494;
+}
+
+
+/*ABOUT SECTION-MAIN*/
+#main .aboutSection {
+    max-width: 800px;
+    margin: 0 auto;
+    
+    padding: 5% 0;
+    text-align: center;
+}
+#main .aboutSection .text-abaoutMe {
+    color: #424242;
+    line-height: 20px;
+}
+
+/*SKILLS SECTION - MAIN*/
+#main .skillsSection {
+    background-color: #009688;
+    text-align: center;
+    width: 100%;
+
+    padding-top: 2%;
+    padding-bottom:5%;
+}
+
+#main .skillsSection .container-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+.skillsSection .container-skills .box-skill {
+    width: 22%;
+    height: 172px;
+    background-color: #26A69A;
+
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 2%;
+
+    border-radius: 10px;
+
+    color: white;
+}
+.skillsSection .container-skills .box-skill  h5{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+
+    margin-bottom: 0.9em;
+}
+.skillsSection .container-skills .box-skill p{
+    font-weight: 300;
+}
+
+/*Section Contact - main*/
+.footer .contactSection {
+    background-color: black;
+    padding: 2%;
+    
+    text-align: center;
+}
+.footer .contactSection h4 {
+    text-transform: uppercase;
+}
+#formContato {
+    max-width: 500px;
+    margin: auto;
+}
+#formContato input,
+#formContato textarea {
+    display: block;
+    width: 100%;
+
+    padding: 3%;
+    margin-bottom: 0.9em;
+    border-radius: 0.2em;
+
+    border: none;
+
+    font-size: 15px;
+}
+
+#submit-button {
+    width: 200px;
+    padding: 0.8em;
+
+    background-color: #009688;
+    cursor: pointer;
+    border: none;
+
+    border-radius: 0.2em;
+    color: #fff;
+
+    transition: 0.5s;
+}
+#submit-button:hover {
+    background-color: #007c70;
+}
+
+
+/*GLOBAL CLASSES*/
+.section-title {
+    font-size: 1.3em;
+    font-weight: 600;
+
+    margin-bottom: 3%;
+}
+.title-green {
+    color: #009688;
+}
+.title-white {
+    color: white;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 360px){
+    #header {
+        background-image: url("eu-redondo.svg");
+        background-position: 50% 30%;
+        background-size: 50%;
+    }
+
+    #header .topSection .presentation {
+        margin-top: 80%;
+        text-align: center;
+    }
+
+    .presentation .title-presentation-box .title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .presentation .title-presentation-box .sub-title {
+        font-size: 25px;
+    }
+    .presentation .title-presentation-box .sub-title2 {
+        font-size: 15px;
+    }
+
+
+}
