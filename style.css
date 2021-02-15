@@ -18,9 +18,9 @@ body {
    padding-top: 20px;
 
    overflow: hidden;
-   background-image: url(eu.jpeg);
+   background-image: url(./src/img/4_Victory_04.png);
    background-repeat: no-repeat;
-   background-position: 90% 160%;
+   background-position: 50% 160%;
    background-size: 40%;
 
    position: relative;
