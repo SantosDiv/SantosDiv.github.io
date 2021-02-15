@@ -22,6 +22,7 @@ body {
   padding-top: 20px;
   position: relative;
 }
+
 .menu-container {
   display: flex;
   justify-content: space-between;
@@ -84,20 +85,26 @@ body {
 }
 
 /*ABOUT SECTION-MAIN*/
-#main .aboutSection {
-  max-width: 800px;
-  margin: 0 auto;
-
-  padding: 5% 0;
+.about-section {
+  background-color: #070606;
+  padding: 30px 20px;
   text-align: center;
 }
-#main .aboutSection .text-abaoutMe {
-  color: #424242;
-  line-height: 20px;
+
+.title-about-me {
+  border-bottom: 2px solid #E11515;
+  color: white;
+
+}
+
+.text-about-me {
+  color: white;
+  font-weight: 200;
+  text-align: center;
 }
 
 /*SKILLS SECTION - MAIN*/
-#main .skillsSection {
+.skillsSection {
   background-color: #009688;
   text-align: center;
   width: 100%;
@@ -106,7 +113,7 @@ body {
   padding-bottom: 5%;
 }
 
-#main .skillsSection .container-skills {
+.skillsSection .container-skills {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -202,9 +209,7 @@ body {
 
 /*GLOBAL CLASSES*/
 .section-title {
-  font-size: 1.3em;
-  font-weight: 600;
-
+  font-weight: 300;
   margin-bottom: 3%;
 }
 .title-green {
