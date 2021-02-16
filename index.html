@@ -5,114 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio- Diogenes Santos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-medium-device.css">
+    <link rel="stylesheet" href="styleMediaDevicesSpecials.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/f4de205c5f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header id="header">
+    <header id="header" class="header">
         <nav class="menu-container">
-            <div class="menu-links">
-                <a href="#">Início</a>
-                <a href="#aboutMe">Sobre Mim</a> 
-                <a href="#skills">Hard Skills</a>
-                <a href="#skills">Soft Skills</a>
-                <a href="#contact">Contato</a>
-                <a href="https://jovemnerd.com.br/nerdcast/" target="blank">Inspiração</a> 
-            </div>  
-            <div class="redesSociais">
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-github"></i>
-            </div> 
-        </nav>    
-        <section class="topSection">
-            <div class="presentation">
-                <div class="title-presentation-box">
-                    <h1 class="title">{HELLO WORLD}</h1>
-                    <h2 class="sub-title">I'M DIOGENES SANTOS</h2>
-                    <h3 class="sub-title2">YOUR DEVELOPMENT</h3>
-                </div>
+            <a href="#header" class="icon-home"><i class="fas fa-home"></i></a>
+            <input id="menu-icon" type="checkbox">
+            <label for="menu-icon">
+                <span class="fas fa-ellipsis-v open-menu"></span>
+                <span class="fas fa-times close-menu"></span>
+            </label>
+            <div class="container-links">
+                <ul class="menu-links">
+                    <li><a href="#aboutMe">Sobre mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
             </div>
-            
+        </nav>
+        <section class="top-section">
+            <p class="text-presentation left-align">Hello! I'm</p>
+            <div class="name">
+                <h1>Diogenes</h1>
+                <h1>Santos</h1>
+            </div>
+            <p  class="text-presentation right-align">Development Junior</p>
         </section>
-        <div class="arrow">
-            <i class="fas fa-arrow-down" id="arrow-link"></i>
-        </div>
     </header>
-    
-    <main id="main">
-        <section class="aboutSection" id="aboutMe">
+
+    <main id="main" class="main">
+        <section class="about-section" id="aboutMe">
             <div id="dataMe" class="data-personales">
-                <h4 class="section-title title-green">QUEM SOU EU</h4>
-                <div class="text-abaoutMe">
-                    <p> Esse ser humaninho que vos fala, tem 27 anos, brasileiro e vascaíno e mora em Natal-RN. Adoro tocar violão, ver futebol (ta difícil de ver meu vasco), e observar o céu (as estrelas me trazem uma alegria e esperança).</p>
-                    <p>O desenvolvimento de softwere se tornou para mim mais do que uma profissão, mas um modo de vida. Sou estudante da Trybe e pronto para encarar e te ajudar nos seus desafios (no que eu puder :)</p>
+                <h4 class="section-title title-about-me">Sobre mim</h4>
+                <div class="text-about-me">
+                    <p> Moro em Natal-RN, cidade na qual eu nasci. Cresci num bairro simples, mas que me proporcionou uma infância cheia de amizades e feliz. Sempre fui aquelas crianças curiosas, que gostavam de desmontar as coisas, para saber o que tinha dentro. Assim entrei na área da tecnologia, quando ganhei meu primeiro computador, e hoje acredito que a tecnologia pode mudar o mundo.</p> </br>
+                    <p>Sou um jovem que gosta de estar em família, que ama música MPB e que ousa um pouco na cozinha com algumas receitas. Sou feliz na área da programação, porque coloco em prática o meu ser criativo e lógico em prol do bem dos outros, pois não há razão maior que o bem comum. Eu acredito que um pequeno ato, pode mudar uma vida e fazer toda a diferença no mundo.</p>
                 </div>
                 <div class="imagens-about-section">
-                    
-                </div>  
-            </div>
-        </section>
 
-        <section class="skillsSection" id="skills">
-            <h4 class="section-title title-white">HARD E SOFT SKILLS</h4>
-            <div class="container-skills">
-                <div class="box-skill">
-                    <h5>JavaScript</h5>
-                    <p>A linguagem mais utilizada na web. Extremamente versátil e simples.</p>
-                </div>
-                <div class="box-skill">
-                    <h5>HTML</h5>
-                    <p>Linguagem de marcação da web. Ela é o esqueleto das suas páginas.</p>
-                </div>
-                <div class="box-skill">
-                    <h5>CSS</h5>
-                    <p>Ta lindo! só fica belo com esse carinha ai. Ela é uma linguagem de estilização.</p>
-                </div>
-                <div class="box-skill">
-                    <h5>SASS</h5>
-                    <p>Um super poder para o CSS. É um plus para a linguagem de estilização.</p>
-                </div>
-                <div class="box-skill">
-                    <h5>Comunicação</h5>
-                    <p>Gosto de me colocar atento ao que me pedem, de dar feedback e de escuta-los.</p>
-                </div>
-                <div class="box-skill">
-                    <h5>GroupWork</h5>
-                    <p>“Deixa que eu faço”
-                        Nunca escutará isso, é provável que escute de mim um: “Vamos fazer?”</p>
-                </div>
-                <div class="box-skill">
-                    <h5>Proatividade</h5>
-                    <p>Eu gosto de me colocar a disposição e sempre que posso estou atento em o que precisa ser feito.</p>
-                </div>
-                <div class="box-skill">
-                    <h5>Criatividade</h5>
-                    <p>Não sabe o que fazer? Nem eu, mas vamos criar uma solução juntos? Simbora!</p>
                 </div>
             </div>
         </section>
 
-        <section class="projects-container">
-            <a href="./pixelArt/index.html">
-                <article class="project">
-                    Projeto Pixel Art
-                </article>
-            </a>
+        <h4 class="section-title">Meus projetos</h4>
+        <section class="projects-container" id="projects">
+            <article class="project">
+                <img src="./src/img/Layout01.jpg" alt="Imagem do projeto">
+                <div class="info-project">
+                    <h4>Zoo Functions</h4>
+                    <p>JavaScript, Css, Html</p> </br>
+                    <p>Proposta: consumir dados de um zoo. Criando e utilizando funções de alta ordem (HOF)</p>
+                    <button class="button-project">Preview</button>
+                </div>
+            </article>
+            <article class="project">
+                <img src="./src/img/Layout01.jpg" alt="Imagem do projeto">
+                <div class="info-project">
+                    <h4>Zoo Functions</h4>
+                    <p>JavaScript, Css, Html</p> </br>
+                    <p>Proposta: consumir dados de um zoo. Criando e utilizando funções de alta ordem (HOF)</p>
+                    <button class="button-project">Preview</button>
+                </div>
+            </article>
+            <article class="project">
+                <img src="./src/img/Layout01.jpg" alt="Imagem do projeto">
+                <div class="info-project">
+                    <h4>Zoo Functions</h4>
+                    <p>JavaScript, Css, Html</p> </br>
+                    <p>Proposta: consumir dados de um zoo. Criando e utilizando funções de alta ordem (HOF)</p>
+                    <button class="button-project">Preview</button>
+                </div>
+            </article>
+            <article class="project">
+                <img src="./src/img/Layout01.jpg" alt="Imagem do projeto">
+                <div class="info-project">
+                    <h4>Zoo Functions</h4>
+                    <p>JavaScript, Css, Html</p> </br>
+                    <p>Proposta: consumir dados de um zoo. Criando e utilizando funções de alta ordem (HOF)</p>
+                    <button class="button-project">Preview</button>
+                </div>
+            </article>
         </section>
-    </main> 
-    <footer class="footer">
-        <section class="contactSection" id="contact">
-            <h4 class="section-title title-white">Contato</h4>
-            <form action="" method="POST" id="formContato">
-                <input type="text" name="name" placeholder="Digite seu nome" required>
-                <input type="email" name="email" placeholder="Digite seu email" required>
-                <textarea name="mensagem" id="textarea" cols="30" rows="10" placeholder="sua mensagem..." required></textarea>
-            </form>
-            <button id="submit-button" form="formContato">Enviar</button>
+
+        <section class="stacks">
+            <div class="box-title-section">
+                <h4 class="section-title">Minhas Stecks</h4>
+                <p class="section-title riscado">Meus poderes Jedi</p>
+            </div>
+            <div class="imgs-stacks">
+                <img src="./src/img/javascript-logo.svg" alt="Logo JavaScript">
+                <img src="./src/img/css-logo.svg" alt="Logo Css">
+                <img src="./src/img/html-logo.svg" alt="Logo HTML">
+                <img src="./src/img/react-logo.svg" alt="Logo React">
+                <img src="./src/img/git-logo.svg" alt="Logo Git">
+                <img src="./src/img/sass-logo.svg" alt="Logo Sass">
+                <img src="./src/img/bootstrap-logo.svg" alt="Logo Bootstrap">
+                <img src="./src/img/photoshop-logo.svg" alt="Logo Photoshop">
+                <img src="./src/img/illustrator-logo.svg" alt="Logo Illustrator">
+                <img src="./src/img/figma-logo.svg" alt="Logo Figma">
+            </div>
         </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <img src="./src/img/29_Hand with phone_04.png" alt="Mão segurando Telefone">
+        <nav class="container-social-medias">
+            <a href="https://github.com/SantosDiv" target="_blank"><img src="./src/img/github-logo.svg" alt="Logo Github"></a>
+            <a href="https://www.linkedin.com/in/diogenessant/" target="_blank"><img src="./src/img/linkedin-logo.svg" alt="Logo Github"></a>
+            <a href="https://www.instagram.com/diogenis.felipe/" target="_blank"><img src="./src/img/instagram-logo.svg" alt="Logo Github"></a>
+        </nav>
+        <p>diogenisfelipe18@gmail.com</p>
+
     </footer>
 </body>
 </html>
