@@ -168,6 +168,31 @@ body {
   border: transparent;
 }
 
+/* SECTION STACKS - main */
+.stacks {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.stacks :nth-child(2) {
+  color: gray;
+  text-decoration: line-through;
+  line-height: 0.5;
+}
+
+.imgs-stacks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /*Section Contact - main*/
 .footer .contactSection {
   background-color: black;
