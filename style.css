@@ -194,48 +194,30 @@ body {
 }
 
 /*Section Contact - main*/
-.footer .contactSection {
-  background-color: black;
-  padding: 2%;
-
-  text-align: center;
-}
-.footer .contactSection h4 {
-  text-transform: uppercase;
-}
-#formContato {
-  max-width: 500px;
-  margin: auto;
-}
-#formContato input,
-#formContato textarea {
-  display: block;
-  width: 100%;
-
-  padding: 3%;
-  margin-bottom: 0.9em;
-  border-radius: 0.2em;
-
-  border: none;
-
-  font-size: 15px;
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 20px;
+  border-top: 1px solid rgb(207, 207, 207);
 }
 
-#submit-button {
-  width: 200px;
-  padding: 0.8em;
-
-  background-color: #009688;
-  cursor: pointer;
-  border: none;
-
-  border-radius: 0.2em;
-  color: #fff;
-
-  transition: 0.5s;
+.footer img {
+  height: 10rem;
 }
-#submit-button:hover {
-  background-color: #007c70;
+
+.container-social-medias {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container-social-medias a img {
+  height: 2rem;
 }
 
 /*GLOBAL CLASSES*/
