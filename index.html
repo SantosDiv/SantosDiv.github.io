@@ -14,11 +14,18 @@
     <header id="header" class="header">
         <nav class="menu-container">
             <a href="#header" class="icon-home"><i class="fas fa-home"></i></a>
-            <ul class="menu-links">
-                <li><a href="#aboutMe">Sobre mim</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
+            <input id="menu-icon" type="checkbox">
+            <label for="menu-icon">
+                <span class="fas fa-ellipsis-v open-menu"></span>
+                <span class="fas fa-times close-menu"></span>
+            </label>
+            <div class="container-links">
+                <ul class="menu-links">
+                    <li><a href="#aboutMe">Sobre mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
         </nav>
         <section class="top-section">
             <p class="text-presentation">Hello! I'm</p>
@@ -83,6 +90,7 @@
             </div>
         </section>
     </main>
+
     <footer class="footer" id="contact">
         <img src="./src/img/29_Hand with phone_04.png" alt="Mão segurando Telefone">
         <nav class="container-social-medias">
