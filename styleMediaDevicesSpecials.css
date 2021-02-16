@@ -1,0 +1,54 @@
+@media screen and (width: 768px) and (height: 1024px) {
+  .header {
+    background-position: 55% 120%;
+    background-size: 90%;
+  }
+
+  .menu-container {
+    align-items: baseline;
+  }
+
+  .icon-home {
+    font-size: 19px;
+  }
+
+  .open-menu {
+    display: none;
+  }
+
+  .container-links {
+    display: flex;
+    position: initial;
+    width: auto;
+  }
+
+  .menu-links {
+    display: flex;
+    position: relative;
+  }
+
+  .menu-links a {
+    font-size: 18px;
+  }
+
+  .top-section {
+    margin-top: 13rem;
+    width: 80%;
+  }
+
+  .top-section p {
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 45px;
+  }
+
+  .text-about-me {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
