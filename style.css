@@ -17,10 +17,13 @@ body {
 
 /*HEADER*/
 .header {
-  background-image: url(./src/img/4_Victory_04.png);
-  background-repeat: no-repeat;
+  /* background-image: url(./src/img/4_Victory_04.png); */
+  /* background-repeat: no-repeat;
   background-position: 50% 100%;
-  background-size: 100%;
+  background-size: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   overflow: hidden;
   padding-top: 20px;
@@ -32,6 +35,9 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 20px 20px;
+  position: absolute;
+  top: 0.5rem;
+  width: 90%;
 }
 
 .icon-home {
@@ -83,6 +89,7 @@ label .close-menu {
   background-color: #E7EFF1;
   display: none;
   position: absolute;
+  top: 0;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -115,7 +122,6 @@ label .close-menu {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
 }
 
 .name {
@@ -218,10 +224,6 @@ label .close-menu {
   background-color: #E11515;
   color: white;
   cursor: pointer;
-}
-
-.button-project:focus {
-  border: transparent;
 }
 
 /* SECTION STACKS - main */

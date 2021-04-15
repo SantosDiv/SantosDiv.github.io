@@ -12,10 +12,6 @@
     font-size: 19px;
   }
 
-  .open-menu {
-    display: none;
-  }
-
   .container-links {
     display: flex;
     position: initial;
